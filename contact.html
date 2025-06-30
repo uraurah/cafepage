@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>喫茶タロウ</title>
+        <!-- コンテンツの説明文を以下に書く -->
+        <meta
+            name="description"
+            content=""
+        />
+
+        <meta name="format-detection" content="telephone=no" />
+        <!-- favicon/web-clip-icon -->
+        <link rel="icon" href="favicon.ico" type="image/ico" />
+        <link rel="icon" href="favicon.png" type="image/png" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="webclip.png" />
+        <!-- ogp -->
+        <meta property="og:site_name" content="喫茶タロウ" />
+        <meta
+            property="og:url"
+            content=""
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="喫茶タロウe" />
+        <meta
+            property="og:description"
+            content=""
+        />
+        <meta
+            property="og:image"
+            content=""
+        />
+        <meta property="og:locale" content="ja_JP" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:description"
+            content=""
+        />
+        <meta
+            name="twitter:image:src"
+            content=""
+        />
+<!-- google fonts -->  <!--フッター用-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+
+    <!--  iconify -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>  <!--フッター用-->
+
+        <!-- js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/backtotop.js" defer></script>
+        <script src="js/index.js" defer></script>
+        <script src="js/main.js" defer></script>
+    </head>
+    <body class="js_body">
+      <div class="l_footer-right">
+        <button class="l_back-to-top">
+          <div class="l_back-to-top_arrow"></div>
+          <div class="l_footer-right_txt">
+            <p class="l_bacl-to-top">上に戻る</p>
+          </div>
+        </button>
+      </div>
+      <header class="l_header">
+        <h1 class="l_header-logo">
+            <a href="index.html" class="l_header-logo_link">
+              <p class="l_header-logo_sub-title">喫茶</p>
+              <p class="l_header-logo_title">タロウ</p>
+            </a>
+        </h1>
+        <nav class="l_header-nav js_navigation">
+          <ul class="l_header-nav_list">
+                      
+            <li class="l_header-nav_item">
+                <a href="menu.html" class="l_header-nav_link ">お品書き</a>
+            </li>
+            <li class="l_header-nav_item">
+                <a href="informational.html" class="l_header-nav_link">店舗情報</a>
+            </li>
+            <li class="l_header-nav_item">
+                <a href="taro.html" class="l_header-nav_link ">タロウの想い</a>
+            </li>
+            <li class="l_header-nav_item">
+                <a href="contact.html" class="l_header-nav_link ">お問い合わせ</a>
+            </li>
+        </ul>
+        </nav>
+        <button class="m_hamburger js_hamburger">
+          <span class="m_hamburger-bar1 js_hamburger-bar"id="hamburger">もくじ</span>
+            <span class="m_hamburger-bar js_hamburger-bar"></span>
+            <span class="m_hamburger-bar js_hamburger-bar"></span>
+        </button>
+    </header>
+    <div class="m_kv m_kv__cta">
+      
+        <p class="kv_txt_jp">
+          お問い合わせ
+        </p>
+        <p class="kv_txt_en">
+          contact
+        </p>
+      
+    </div>
+
+        <main class="l_main">
+            <div class="l_contents">
+              <div class="l_container-sm">
+                <form action="" class="contact_form">
+                  <dl class="contact_form_list">
+                    
+                    <dt class="contact_form_heading">
+                      お名前<span class="contact_form_example">例.喫茶太郎</span>
+                      <span class="contact_form_required">必須</span>
+                    </dt>
+                    <dd class="contact_form_detail">
+                      <input type="text" class="contact_form_input" />
+                    </dd>
+                    <dt class="contact_form_heading">
+                      お名前 (フリガナ)<span class="contact_form_example"
+                        >例.キッサタロウ</span
+                      >
+                      <span class="contact_form_required">必須</span>
+                    </dt>
+                    <dd class="contact_form_detail">
+                      <input type="text" class="contact_form_input" />
+                    </dd>
+                    <dt class="contact_form_heading">
+                      電話番号<span class="contact_form_example">例.0312345678</span>
+                      <span class="contact_form_required">必須</span>
+                    </dt>
+                    <dd class="contact_form_detail">
+                      <input type="tel" class="contact_form_input" />
+                    </dd>
+                    <dt class="contact_form_heading">
+                      メールアドレス<span class="contact_form_example"
+                        >例.info@sample.com</span
+                      >
+                      <span class="contact_form_required">必須</span>
+                    </dt>
+                    <dd class="contact_form_detail">
+                      <input type="email" class="contact_form_input" />
+                    </dd>
+                    
+                    <dt class="contact_form_heading">
+                      お問い合わせ内容
+                      <span class="contact_form_required">必須</span>
+                    </dt>
+                    <dd class="contact_form_detail">
+                      <textarea
+                        class="contact_form_textarea"
+                        placeholder="ご自由にご記入ください。"
+                      ></textarea>
+                    </dd>
+                  </dl>
+      
+                  <div class="contact_form_btn-wrapper">
+                    <div class="m_btn m_btn__right-arrow">
+                      <input
+                        type="submit"
+                        class="m_btn_input"
+                        value="この内容で送信する"
+                      />
+                    </div>
+                    <!-- /.m_btn -->
+                  </div>
+                  <!-- /.contact_form_btn-wrapper -->
+                </form>
+              </div>
+              <!-- /.l_container-sm -->
+            </div>
+            <!-- /.l_contents -->
+          </main>
+          
+          <footer>
+            <div class="l_footer-top">
+              <nav class="l_footer-nav">
+                <ul class="l_footer-nav_list">
+                  <li class="l_footer-nav_item">
+                    <a href="menu.html"class="l_footer-nav_link">お品書き</a>
+                  </li>
+                  <li class="l_footer-nav_item">
+                    <a href="informational.html"class="l_footer-nav_link">店舗情報</a>
+                  </li>
+                  <li class="l_footer-nav_item_large">
+                    <a href="taro.html"class="l_footer-nav_link">タロウの想い</a>
+                  </li>
+                  <li class="l_footer-nav_item_large">
+                    <a href="contact.html"class="l_footer-nav_link">お問い合わせ</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        
+            <div class="l_footer-content">
+              <a href="index.html" class="l_footer_store-name">
+                <span class="l_footer_store-name_sub">喫茶</span><br>
+                <span class="l_footer_store-name_main">タロウ</span>
+              </a>
+            </div>
+              <div class="l_footer-center">
+                <div class="l_footer-center_wrapper">
+                <p class="l_footer-center_txt">１杯１杯<br><span class="l_footer-center-space"></span>心を込めて</p></div>
+              </div>
+        
+                <div class="l_footer-info">
+                  <div class="l_footer-info_txt">
+                  <span class="l_footer-info_small-txt">〒150-0001</span>
+                  <p>東京都渋谷区神宮前３丁目１-２５</p>
+                  <span class="l_footer-info_tel">000-0000-0000</span>
+                  <div class="l_footer_social-links">
+                    <span class="l_footer-social_txt">FOLLOW US</span>
+                    <a href="https://www.instagram.com" target="_blank" class="l_footer-social_icon-link">
+                    <iconify-icon icon="entypo-social:instagram-with-circle" width="40" height="40" class="l_footer-social_icon"></iconify-icon>
+                  </a>
+                  </div>
+                </div>
+                <div class="l_footer-copyright">
+                  <p class="l_footer-copyright_txt">
+                    <small class="l_footer-copyright_small-txt">
+                      &copy; 喫茶タロウ All Rights Reserved.
+                    </small>
+                  </p>
+                </div>
+                <div class="l_footer-copyright__pc">
+                  <p class="l_footer-copyright_txt__pc">
+                    <small class="l_footer-copyright_small-txt">
+                      &copy; 喫茶タロウ All Rights Reserved.
+                    </small>
+                  </p>
+                </div>
+
+          </footer>   
+              
+    </body>
+</html>
